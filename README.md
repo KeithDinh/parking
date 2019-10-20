@@ -1,9 +1,9 @@
 
-Purpouse: 
+Purpose: 
 	- Create a parking system that maximizes the profit for the owner.
 
 Scenario:
-	- To reach the goal, I believe the system is required to not only work perfectly but also constantly update the availability of the lots in the parking.
+	- To reach the goal, I believe the system is required to not only work perfectly but also constantly update the availability of the 		lots in the parking.
 	- Therefore, when a car leaves, the lot must be available for next car in the line right away. 
 	- When a car enters, the lot must be marked as "Filled"
 	- Whenever a car leaves or enters, the parking must display its availability either "Full" or "Available".
