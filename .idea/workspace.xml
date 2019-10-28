@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51738d2d-bd9f-462b-bf57-ad56e9e3706c" name="Default Changelist" comment="" />
+    <list default="true" id="51738d2d-bd9f-462b-bf57-ad56e9e3706c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Parking_Lot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parking_Lot.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,51 +18,14 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Parking_Lot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
+            <state relative-caret-position="340">
+              <caret line="231" column="38" lean-forward="true" selection-start-line="231" selection-start-column="38" selection-end-line="231" selection-end-column="38" />
               <folding>
-                <element signature="e#715#817#0" />
-                <element signature="method#IsEmpty#0;class#Parking_Lot#0" />
-                <element signature="e#1041#1208#1" />
-                <element signature="e#1093#1198#1" />
-                <element signature="method#read_file_to_queue#0;class#Parking_Lot#0" />
-                <element signature="e#644#718#0" />
-                <element signature="e#751#816#0" />
-                <element signature="e#1030#1597#1" />
-                <element signature="e#1185#1587#1" />
-                <element signature="e#1207#1281#0" />
-                <element signature="e#1345#1394#0" />
-                <element signature="e#1300#1442#1" />
-                <element signature="e#1728#1754#1" />
-                <element signature="method#available#0;class#Parking_Lot#0" />
-                <element signature="e#2753#2966#1" />
-                <element signature="e#2805#2956#1" />
-                <element signature="e#2880#2942#1" />
-                <element signature="e#2999#3098#0" />
-                <element signature="method#Parking_Lot#0;class#Parking_Lot#0" />
-                <element signature="e#1074#1195#1" />
-                <element signature="e#1123#1185#1" />
-                <element signature="e#1442#2974#1" />
-                <element signature="e#1489#1621#1" />
-                <element signature="e#2306#2645#1" />
-                <element signature="e#1946#2069#1" />
-                <element signature="e#2576#2661#1" />
-                <element signature="e#3660#3679#0" />
-                <element signature="e#3084#3178#1" />
                 <element signature="n#!!doc;n#car_time_left#0;n#Parking_Lot#0" />
-                <element signature="method#car_time_left#0;class#Parking_Lot#0" />
-                <element signature="e#4999#6891#1" />
-                <element signature="e#5048#6881#1" />
-                <element signature="e#5108#6867#1" />
-                <element signature="e#3776#4080#1" />
-                <element signature="e#5540#6849#1" />
-                <element signature="e#5659#5718#1" />
-                <element signature="e#5895#5956#1" />
-                <element signature="e#4006#4066#1" />
               </folding>
             </state>
           </provider>
@@ -67,16 +34,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
+            <state relative-caret-position="374">
               <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
             </state>
           </provider>
@@ -86,16 +53,16 @@
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/IdeaProjects/Triangle/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/../Triangle/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="30" column="21" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="510">
+              <caret line="30" column="21" selection-start-line="18" selection-start-column="20" selection-end-line="30" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -129,28 +96,29 @@
       <replace>car_parking_time_queue</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Lot.java" />
         <option value="$PROJECT_DIR$/src/Car.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Lot.java" />
         <option value="$PROJECT_DIR$/src/Parking_Lot.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,9 +135,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -213,112 +184,76 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14228188" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1442953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.64447594" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.64447594" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/IdeaProjects/Triangle/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parking_Lot.java">
+    <entry file="file://$PROJECT_DIR$/../Triangle/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
-          <folding>
-            <element signature="e#715#817#0" />
-            <element signature="method#IsEmpty#0;class#Parking_Lot#0" />
-            <element signature="e#1041#1208#1" />
-            <element signature="e#1093#1198#1" />
-            <element signature="method#read_file_to_queue#0;class#Parking_Lot#0" />
-            <element signature="e#644#718#0" />
-            <element signature="e#751#816#0" />
-            <element signature="e#1030#1597#1" />
-            <element signature="e#1185#1587#1" />
-            <element signature="e#1207#1281#0" />
-            <element signature="e#1345#1394#0" />
-            <element signature="e#1300#1442#1" />
-            <element signature="e#1728#1754#1" />
-            <element signature="method#available#0;class#Parking_Lot#0" />
-            <element signature="e#2753#2966#1" />
-            <element signature="e#2805#2956#1" />
-            <element signature="e#2880#2942#1" />
-            <element signature="e#2999#3098#0" />
-            <element signature="method#Parking_Lot#0;class#Parking_Lot#0" />
-            <element signature="e#1074#1195#1" />
-            <element signature="e#1123#1185#1" />
-            <element signature="e#1442#2974#1" />
-            <element signature="e#1489#1621#1" />
-            <element signature="e#2306#2645#1" />
-            <element signature="e#1946#2069#1" />
-            <element signature="e#2576#2661#1" />
-            <element signature="e#3660#3679#0" />
-            <element signature="e#3084#3178#1" />
-            <element signature="n#!!doc;n#car_time_left#0;n#Parking_Lot#0" />
-            <element signature="method#car_time_left#0;class#Parking_Lot#0" />
-            <element signature="e#4999#6891#1" />
-            <element signature="e#5048#6881#1" />
-            <element signature="e#5108#6867#1" />
-            <element signature="e#3776#4080#1" />
-            <element signature="e#5540#6849#1" />
-            <element signature="e#5659#5718#1" />
-            <element signature="e#5895#5956#1" />
-            <element signature="e#4006#4066#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="510">
+          <caret line="30" column="21" selection-start-line="18" selection-start-column="20" selection-end-line="30" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
+        <state relative-caret-position="374">
           <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parking_Lot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="231" column="38" lean-forward="true" selection-start-line="231" selection-start-column="38" selection-end-line="231" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc;n#car_time_left#0;n#Parking_Lot#0" />
+          </folding>
         </state>
       </provider>
     </entry>

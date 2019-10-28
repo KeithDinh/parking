@@ -3,6 +3,9 @@ public class Lot {
     protected int lot_col;
     protected boolean lot_available;
     protected Car car;
+    protected int lot_fee;
+    protected int lot_policies;
+    protected double lot_discount;
     public Lot(int x, int y)
     {
         lot_row = x;

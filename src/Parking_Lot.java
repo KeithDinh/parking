@@ -19,7 +19,7 @@ public class Parking_Lot {
     private boolean parking_full = false;
     private int time_tracking = 0;
     private int id_tracking = 0;
-    private int profit=0;
+    private double profit=0;
 
     // ************************************************** CLASS FUNCTION ************************************************ //
 
@@ -120,10 +120,21 @@ public class Parking_Lot {
             for(int j=0; j<dcol; j++)
             {
                 capacity[i][j] = new Lot(i,j);
+                if(i < 2) {
+                    capacity[i][j].lot_fee = 2;
+                    capacity[i][j].lot_discount = 0.05;
+                    capacity[i][j].lot_policies= 180;
+                }
+                else
+                {
+                    capacity[i][j].lot_fee = 5;
+                    capacity[i][j].lot_discount = 0.5;
+                    capacity[i][j].lot_policies= 120;
+                }
             }
         }
         System.out.println("\n************************ The parking is empty ************************");
-        System.out.println("Current profit: " + Integer.toString(profit));
+        System.out.println("Current profit: " + Double.toString(profit));
 
         //********** READ FILE ********//
         read_file_to_queue(testcase);
@@ -210,26 +221,23 @@ public class Parking_Lot {
                     }
                     else if (capacity[i][j].car.parking_time_etm < 0)
                     {
-                        int fee =0;
-                        if(capacity[i][j].car.parking_time/60 > 3)
-                        {
-                            fee = 4*3 + Math.round((capacity[i][j].car.parking_time-180)/60f)*2;
-                        }
-                        else if(capacity[i][j].car.parking_time < 60)
-                        {
-                            fee = 4;
+                        double fee =0;
+                        if(capacity[i][j].car.parking_time > capacity[i][j].lot_policies) {
+                            fee = capacity[i][j].lot_fee *
+                                    Math.round(capacity[i][j].car.parking_time / capacity[i][j].lot_policies) *
+                                    capacity[i][j].lot_discount;
                         }
                         else
-                            fee = Math.round(capacity[i][j].car.parking_time/60f)*4;
+                            fee = Math.round(capacity[i][j].car.parking_time/60f)*capacity[i][j].lot_fee;
                         profit += fee;
                         capacity[i][j].reset();
 
                         exit_gate = false;
                         System.out.println("Exit gate has closed, " + "Car " + Integer.toString(capacity[i][j].car.id)
                                 + " has left the lot " + Integer.toString(i + 1) + " - "+
-                                Integer.toString(j + 1)+" and paid: $" +Integer.toString(fee)
+                                Integer.toString(j + 1)+" and paid: $" +Double.toString(fee)
                         + " for " + Integer.toString(capacity[i][j].car.parking_time) + " minute(s)");
-                        System.out.println("Current Profit: " + Integer.toString(profit));
+                        System.out.println("Current Profit: " + Double.toString(profit));
                         if (parking_full == true)
                         {
                             parking_full = false;
